@@ -1,4 +1,6 @@
 @import "./global/global.css";
+@import "./utilitarios/cores.css";
+@import "./utilitarios/tipografia.css";
 @import "./global/header.css";
 
 /* Utilitários */
@@ -6,3 +8,6 @@
 
 /* Home */
 @import "./home/introducao.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
