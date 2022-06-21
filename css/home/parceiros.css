@@ -17,7 +17,7 @@
 
 .parceiros li {
   padding: 32px;
-  display: grid;
+  display: flex;
   border-left: 2px solid var(--cor-2);
 }
 
@@ -36,8 +36,20 @@
 
 /* Responsivo */
 @media (max-width: 800px) {
+  .parceiros {
+    padding-bottom: 60px;
+  }
+
+  .parceiros h2 {
+    margin-bottom: 20px;
+  }
+
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .parceiros li {
+    padding: 20px;
   }
 
   .parceiros li:nth-child(odd) {
