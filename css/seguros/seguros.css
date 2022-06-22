@@ -4,7 +4,7 @@
 
 .seguros {
   padding-top: 60px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
