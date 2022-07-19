@@ -78,7 +78,7 @@
 /* Responsivo */
 @media (max-width: 800px) {
   .bicicletas-bg {
-    box-shadow: none;
+    background: var(--cor-11);
   }
 
   .bicicletas {
